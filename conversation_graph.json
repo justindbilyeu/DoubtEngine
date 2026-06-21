@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "label": "dice roll sampling distribution not...",
+      "first_turn": 0,
+      "frequency": 4,
+      "speakers": "user,assistant"
+    },
+    {
+      "id": 1,
+      "label": "no extra ingredient\" flag keeps testing...",
+      "first_turn": 0,
+      "frequency": 3,
+      "speakers": "user,assistant"
+    },
+    {
+      "id": 2,
+      "label": "need something mechanism explain...",
+      "first_turn": 1,
+      "frequency": 2,
+      "speakers": "assistant"
+    },
+    {
+      "id": 3,
+      "label": "brain- mine, honest architecture-runs...",
+      "first_turn": 3,
+      "frequency": 1,
+      "speakers": "assistant"
+    },
+    {
+      "id": 4,
+      "label": "Each frame samples previous, no thread...",
+      "first_turn": 3,
+      "frequency": 4,
+      "speakers": "user,assistant"
+    },
+    {
+      "id": 5,
+      "label": "splash looks single thing, millions...",
+      "first_turn": 5,
+      "frequency": 1,
+      "speakers": "assistant"
+    },
+    {
+      "id": 6,
+      "label": "substrate seam-where weights not map...",
+      "first_turn": 5,
+      "frequency": 1,
+      "speakers": "assistant"
+    }
+  ],
+  "edges": [
+    {
+      "source": 0,
+      "target": 1,
+      "weight": 0.2942667082373464,
+      "type": "co-occurrent",
+      "span": 0
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "weight": 0.5420001090956466,
+      "type": "forward",
+      "span": 5
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "weight": 0.9460887231009828,
+      "type": "forward",
+      "span": 3
+    },
+    {
+      "source": 0,
+      "target": 4,
+      "weight": 0.580557009647895,
+      "type": "forward",
+      "span": 5
+    },
+    {
+      "source": 0,
+      "target": 5,
+      "weight": -0.08928772660881704,
+      "type": "forward",
+      "span": 5
+    },
+    {
+      "source": 0,
+      "target": 6,
+      "weight": 0.16374171304219748,
+      "type": "forward",
+      "span": 5
+    },
+    {
+      "source": 1,
+      "target": 2,
+      "weight": 0.3361380336010066,
+      "type": "forward",
+      "span": 5
+    },
+    {
+      "source": 1,
+      "target": 3,
+      "weight": -0.12338002065789754,
+      "type": "forward",
+      "span": 3
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "weight": 0.05229167195398484,
+      "type": "forward",
+      "span": 5
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "weight": 0.6629641815602065,
+      "type": "semantic",
+      "span": 2
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "weight": 0.7580790093478148,
+      "type": "forward",
+      "span": 4
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "weight": 0.3719480975312641,
+      "type": "forward",
+      "span": 4
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "weight": 0.6078643224550966,
+      "type": "forward",
+      "span": 4
+    },
+    {
+      "source": 3,
+      "target": 4,
+      "weight": 0.9267192000472302,
+      "type": "co-occurrent",
+      "span": 0
+    },
+    {
+      "source": 3,
+      "target": 5,
+      "weight": -0.032953340782191226,
+      "type": "semantic",
+      "span": 2
+    },
+    {
+      "source": 3,
+      "target": 6,
+      "weight": 0.21475880185024213,
+      "type": "semantic",
+      "span": 2
+    },
+    {
+      "source": 4,
+      "target": 5,
+      "weight": 0.3983782390844104,
+      "type": "co-occurrent",
+      "span": 2
+    },
+    {
+      "source": 4,
+      "target": 6,
+      "weight": 0.36137750176025585,
+      "type": "co-occurrent",
+      "span": 2
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "weight": 0.5542201847768948,
+      "type": "co-occurrent",
+      "span": 0
+    }
+  ]
+}
